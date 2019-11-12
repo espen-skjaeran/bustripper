@@ -16,7 +16,7 @@ import java.util.Date;
  */
 public class FindBusLinesForStop implements Runnable {
 
-    private static final String SEARCH_URL = "http://reisapi.ruter.no/StopVisit/GetDepartures/%s?datetime=%s";
+    private static final String SEARCH_URL = "https://reisapi.ruter.no/StopVisit/GetDepartures/%s?datetime=%s";
 
     private static SimpleDateFormat formatter = new SimpleDateFormat("YYYY-MM-dd'T'HH:mm:ss");
 
